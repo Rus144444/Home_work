@@ -1,0 +1,67 @@
+/* --- Common --- */
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social__link {
+    background: #393E46;
+    border-radius: 50%;
+    height: 48px;
+    display: flex;
+    flex: 0 0 48px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease 0s;
+}
+
+.social__link:hover {
+    background: #22252b;
+}
+
+
+/* --- button --- */
+
+.button {
+    text-align: center;
+    background: #00ADB5;
+    border-radius: 24px;
+    padding: 10px 32px;
+    color: #eee;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease 0s;
+}
+
+.button:hover {
+    background: #393E46BF;
+}
+
+.button__dark:hover {
+    background: #00ADB5;
+}
+
+.button__dark {
+    background: #393E46BF;
+
+}
+
+/* --- title --- */
+
+.title span{
+    color: #00ADB5;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left; 
+}
+
+/* ======================================= */

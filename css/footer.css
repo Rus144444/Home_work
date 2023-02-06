@@ -1,0 +1,52 @@
+/* --- Footer --- */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+.footer__container {
+    
+}
+
+.menu-footer__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 48px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer__menu:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.menu-footer__link {
+    color: #EEE;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.menu-footer__link:hover {
+    text-decoration: underline;
+}
+
+.menu-footer__link_home {
+    background: url("../img/icon/home.svg") left no-repeat;
+    padding-left: 30px;
+}
+
+.menu-footer__link_about {
+    background: url("../img/icon/user.svg") left no-repeat;
+    padding-left: 30px;
+}
+
+
+.menu-footer__link_contacts {
+    background: url("../img/icon/phone.svg") left no-repeat;
+    padding-left: 30px;
+}
+
+/* ======================================= */
